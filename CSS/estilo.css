@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0; 
+}
+
+:root { 
+
+	/*Paleta Resort */
+	--off-white: #F2EBD5;
+	--hard-beige: #E1CE84;
+	--concreto-beira-mar: #89785F;
+	--mascavo: #A67D55;
+	--laranja-solar: #F28907;
+	--caule-tropical: #744F19;
+	--dry-leaf: #514520; 
+	--deep-olive: #3B3B0B;
+	--bright-olive: #667417; 
+	--banho-de-mar: #3DD1F2;
+	
+}
+
+body {
+	font-family: Helvetica, "Trebuchet MS", sans-serif; 
+	background: #fff url("../Imagens/bg.png"); 
+	margin: 15px; 
+	text-align: justify; 
+}
+
+a {
+	text-decoration: none;
+}
+#container {
+	background: var(--off-white) url("../Imagens/bg-container.png") top center repeat-y; 
+	margin: 0 auto; 
+	min-width: 900px; 
+	max-width: 1185px; 
+ 	box-shadow: 0 0 100px 2px var(--off-white);
+
+
+
+}
+
+#topo{
+	background: var(--dry-leaf); 
+	height: 15.4em; 
+	min-height: 250px; 
+	position: relative;
+}
+
+#area-logo{
+	background: url("../Imagens/topo-imagem-principal2.png") no-repeat;
+	width: 100%; 
+	height: 250px;
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	z-index: 1;
+
+}
+
+.logo a{
+	position: absolute;
+	top: 15px;
+	left: 15px; 
+	z-index: 3;
+	background: url(../Imagens/nova-logo-redimensionada.png) no-repeat; 
+	width: 151px;
+	height: 75px; 
+	text-indent: -100000px; 
+;
+}
+
+#area-menu{
+	background: url("../Imagens/topo-imagem-lateral.png") no-repeat;
+	width: 450px; 
+	height: 250px; 
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+
+}
+
+#conteudo-menu {
+	margin-left: 90px;
+	margin-right: 15px; 
+	margin-top: 15px;  
+}
+
+#menu-locais {
+	border-bottom: 1px solid var(--hard-beige);
+	border-top: 1px solid var(--hard-beige);
+	padding: 5px;
+	font-size: 0.7em; 
+	color: var(--off-white); 
+}
+
+#menu-locais .locais {
+	float: left; 
+	line-height: 2em;
+}
+
+#menu-locais .reservar {
+	color: var(--hard-beige); 
+	background: var(--deep-olive);
+	padding: 5px 10px;
+	float: right;
+	border: 1px solid var(--hard-beige); 
+	text-transform: uppercase;
+}
+
+#menu {
+	margin-top: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul#navegaçao {
+	float: left; 
+}
+
+ul#navegaçao li a{
+	text-transform: uppercase;
+	font-size: 0.8em;
+	line-height: 30px; 
+	color: var(--hard-beige);
+	padding: 0 10px;
+	display: inline-block;
+
+}
+
+
+
+ul#navegaçao li a:hover{
+	background: var(--deep-olive);
+
+}
+.depoimento {
+	width: 226px; 
+	height: 164px; 
+	float: right; 
+
+}
+
+#area-principal {
+	padding: 25px 0px; 
+	float: left;
+	width: 50%; 
+	background: url("../Imagens/bg-area-principal.png") top left repeat-x;
+}
+
+#area-lateral {
+	padding: 30px 0px; 
+	float: right; 
+	width: 50%;
+	background: url("../Imagens/bg-area-lateral.png") top left repeat-x;
+}
+
+.conteudo{
+	margin: 0 auto;
+	width: 90%; 
+}
+
+#rodape {
+	clear: both; 
+	padding: 20px 0 15px 0; 
+	background: var(--dry-leaf) url("../Imagens/bg-rodape.png") repeat-x top; 
+	color: var(--hard-beige);
+	text-transform: uppercase;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+
+h2 {
+	color: var(--caule-tropical);
+	padding: 5px 0 10px 0;
+	font-size: 1.2em;
+}
+
+p {
+	color: var(--dry-leaf);
+	padding: 5px 0;
+	font-size: 0.95em;
+}
+
+#beneficios li{
+	padding: 5px; 
+	border-bottom: 1px solid var(--off-white);
+	height: 6em;
+}
+
+#beneficios li a img {
+	float: left; 
+	margin-right: 15px; 
+}
+
+#beneficios li a p {
+	font-size: 0.8em; 
+	padding: 5px;
+	color: var(--deep-olive);
+}
+
+#beneficios li a h3 {
+	font-size: 1em;
+	color: var(--bright-olive);
+	padding: 5px 0 0 0;
+	background: url("../Imagens/ornamento.png") no-repeat center right;
+}
+
+#beneficios li:hover{
+	background: var(--off-white);
+	padding: 5px 15px;
+	cursor: pointer;
+}
